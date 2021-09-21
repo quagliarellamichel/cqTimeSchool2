@@ -1,0 +1,50 @@
+<XML DayInWeek='6' SetupWeeks='LU,MA,ME,GI,VE' >
+
+	<Professore Name='SCHEMBARI LUCIA' Sigla='SL'>
+		<Classe Name='1A' OreFrontali='20' />
+	</Professore>
+	
+	<Professore Name='OCCHIPINTI GIUSEPPA' Sigla='OG'>
+		<Classe Name='1B' OreFrontali='20' />
+	</Professore>
+	
+	<Professore Name='FERRARO SALVATRICE' Sigla='FS'>
+		<Classe Name='1C' OreFrontali='20' />
+	</Professore>
+		
+	<Professore Name='INGALLINESI BATTISTINA' Sigla='IB'>
+		<Classe Name='1D' OreFrontali='20' />
+	</Professore>
+	
+	<Professore Name='ZISA GIUSEPPINA VALERIA' Sigla='ZG'>
+		<Classe Name='1E' OreFrontali='20' />
+	</Professore>
+		
+	<Professore Name='GUCCIONE DANILA' Sigla='GD'>
+		<Classe Name='1A' OreFrontali='8' />
+		<Classe Name='1B' OreFrontali='6' />
+		<Classe Name='1C' OreFrontali='6' />
+	</Professore>
+	
+	<Professore Name='FERRARO ANTONELLA' Sigla='FA'>
+		<Classe Name='1B' OreFrontali='2' />
+		<Classe Name='1C' OreFrontali='2' />
+		<Classe Name='1D' OreFrontali='8' />				
+		<Classe Name='1E' OreFrontali='8' />		
+	</Professore>
+	
+	<Professore Name='BOCCHIERI CARMELO' Sigla='R1'>
+		<Classe Name='1B' OreFrontali='2' />
+	</Professore>
+	
+	<Professore Name='GIRLANDO GIOVANNA' Sigla='R2'>
+		<Classe Name='1A' OreFrontali='2' />
+		<Classe Name='1E' OreFrontali='2' />
+	</Professore>
+	
+	<Professore Name='GIOVANNA GIRLANDO' Sigla='R3'>
+		<Classe Name='1C' OreFrontali='2' />
+		<Classe Name='1D' OreFrontali='2' />
+	</Professore>
+	
+</XML>
