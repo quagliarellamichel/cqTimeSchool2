@@ -43,7 +43,7 @@ namespace cqTimeSchool2 {
             wClasse.Worksheets[0].AutoFitColumns();
             wProfess.Worksheets[0].AutoFitColumns();
             try {
-                filename = filename.Replace(".xml", ".xls");
+                filename = filename.Replace("./", "").Replace(".xml", ".xls");
                 ExcelClass.SaveExcel(true, filename, wClasse, wProfess);
             } catch(Exception ex) {
                 Console.WriteLine(ex);
