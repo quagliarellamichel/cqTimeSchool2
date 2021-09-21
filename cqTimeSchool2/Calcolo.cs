@@ -24,7 +24,7 @@ namespace cqTimeSchool2 {
             CalcClassi();
         }
 
-        public void Start() {
+        public void Start(string filename) {
 
             if (CheckComplete()) return;
 
@@ -43,7 +43,8 @@ namespace cqTimeSchool2 {
             wClasse.Worksheets[0].AutoFitColumns();
             wProfess.Worksheets[0].AutoFitColumns();
             try {
-                ExcelClass.SaveExcel(true, "calcolo.xls", wClasse, wProfess);
+                filename = filename.Replace(".xml", ".xls");
+                ExcelClass.SaveExcel(true, filename, wClasse, wProfess);
             } catch(Exception ex) {
                 Console.WriteLine(ex);
             }

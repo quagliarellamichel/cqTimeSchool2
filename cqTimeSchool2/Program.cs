@@ -39,7 +39,7 @@ namespace cqTimeSchool2 {
                 , XML.ParseProfessori(xml.Professori)
                 );
 
-            c.Start();
+            c.Start(files[(int)pos]);
             Console.WriteLine("press enter to close");
             Console.ReadLine();
         }
