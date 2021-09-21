@@ -3,7 +3,7 @@
 e pochi passaggi per la configurazione
 di seguito il download
 
-### DOWNLOAD ALGRITMO
+### DOWNLOAD ALGORITMO
 troverai il file ZIP all'interno della cartella ready
 oppure al seguente [LINK](../raw/master/ready/release_1.0.zip)
 
