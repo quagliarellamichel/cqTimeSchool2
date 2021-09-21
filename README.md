@@ -1,4 +1,4 @@
-# CQ TimeSchool V2
+# CODEQ TimeSchool V2
 è un algoritmo in grado di calcolare l'orario scolastico automaticamente in pochi istanti 
 e in pochi passaggi di configurazione
 di seguito il download
