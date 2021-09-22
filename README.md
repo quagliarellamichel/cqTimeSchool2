@@ -17,8 +17,8 @@ per permettere all'algoritmo d'individuare il nuovo file e svolgere il calcolo
 <XML DayInWeek='6' SetupWeeks='LU,MA,ME,GI,VE' >
 ```
 proprietà
-- [DayInWeek] è possibile configurare il numero di ore lavorative per classe presenti in una settimana
-- [SetupWeeks] è possibile selezionare i giorni della settimana LU,MA,ME,GI,VE,SA,DO (se si vogliono usare solo alcuni basterà rimuoverli dalla sequenza)
+- [DayInWeek] imposta il numero di ore lavorative in una settimana.
+- [SetupWeeks] imposta i giorni della settimana (LU,MA,ME,GI,VE,SA,DO) per escludere basterà rimuoverli dalla sequenza.
 
 # TAG Professore
 possono essere presenti più TAG Professore all'interno della root del file XML
@@ -28,8 +28,8 @@ possono essere presenti più TAG Professore all'interno della root del file XML
 </Professore>
 ```
 proprietà
-- [Name] del professore
-- [Sigla] (questa per essere visualizzata comodamente nella tabella dell'orario)
+- [Name] Nome del professore
+- [Sigla] Le iniziali del professore verranno visualizzati nella tabella dell'orario
   
 # TAG Classe
 possono essere presenti più TAG Classe all'interno del professore
@@ -37,8 +37,8 @@ possono essere presenti più TAG Classe all'interno del professore
 <Classe Name='1A' OreFrontali='8' />
 ```
 proprietà
-- [Name] sigla della classe esempio [1A]
-- [OreFrontali] queste sono le ore frontali dell'insegnante nella classe (le compresenze non verranno calcolate)
+- [Name] Nome della classe, esempio [1A]
+- [OreFrontali] ore frontali dell'insegnante nella classe (le compresenze non verranno calcolate)
 
 # ESECUZIONE
 la prima operazione richiesta sarà la selezione di uno dei file di configurazione trovati all'interno della cartella dell'eseguibile
