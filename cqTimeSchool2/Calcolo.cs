@@ -265,7 +265,7 @@ namespace cqTimeSchool2 {
                 }
                 if (check.Count() == 0) check = new List<string>() { "OK" };
 
-                row["PROFESSORE"] = p.Nome;
+                row["PROFESSORE"] = p.Nome; 
                 row["SIGLA"] = $"{p}";
                 row["CHECK"] = string.Join(" ", check);
 
