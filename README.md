@@ -24,7 +24,7 @@ per permettere all'algoritmo di individuare il nuovo file e svolgere un nuovo ca
 # TAG Professore
 possono essere presenti più TAG Professore all'interno della root del file XML
 ```XML
-<Professore Name='OCCHIPINTI GIUSEPPA' Sigla='OG'>
+<Professore Name='OCCHIPINTI G.' Sigla='OG'>
   <Classe Name='1B' OreFrontali='20' />
 </Professore>
 ```
