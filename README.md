@@ -4,8 +4,8 @@ e in pochi passaggi di configurazione
 di seguito il download
 
 ### DOWNLOAD
-troverai il file ZIP all'interno della cartella ready
-oppure al seguente [LINK](https://github.com/quagliarellamichel/cqTimeSchool2/releases/download/v1.0/release_1.0.zip)
+troverai il file ZIP nella sezione release
+oppure al seguente [LINK](https://github.com/quagliarellamichel/cqTimeSchool2/releases/download/v1.0/rel_v1.zip)
 
 # CONFIGURAZIONE
 tutti i file xml come "classe_1.xml" sono dei file di configurazione per impostare l'algoritmo 
